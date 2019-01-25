@@ -1,3 +1,53 @@
-p{
-  color:red;
+div{
+  margin: 200px auto;
+  border-radius: 100%;
 }
+body{
+  background: #000;
+}
+div div{
+  position: relative;
+}
+
+.frame{
+  background: #939393;
+  width: 380px; height: 380px;
+
+}
+
+.main{
+  background: #000;
+  width: 330px; height: 330px;
+  top:25px;
+}
+
+.hour_glass{
+  background: #6ee55b;
+  width: 250px; height: 250px;
+  top: 40px;
+  transition: all 0.5s ease-in;
+}
+
+.hour1, .hour2{
+  border-radius: 0%;
+  width: 0; height: 0;
+  display:inline-block;
+  border-top:100px solid transparent;
+  border-bottom: 100px solid transparent;
+  top: -180px
+}
+
+.hour1 {
+  border-left: 110px solid black;
+}
+.hour2 {
+  border-right: 110px solid black;
+  left: 27px;
+}
+
+.hour_glass:hover{
+  transform: rotate(-90deg);
+  background: #35e51a;
+}
+
+/** #35e51a;**/
