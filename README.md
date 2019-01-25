@@ -1,4 +1,4 @@
-# Omnitrix
+# Omnitrix(/omnitrix/index.html)
 
 The Omnitrix, an interacitve html version of the most powerful weapon in the universe. 
 
